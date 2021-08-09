@@ -1,9 +1,12 @@
 export class Conta {
     constructor(saldoInicial, cliente, agencia) {
+        if(this.constructor == Conta) {
+            throw new Error("Você não deveria instanciar um objeto do tipo Conta Diretamente") //Imprime um erro caso o Desenvolvedor não especificar o tipo de conta
+        }
         this._saldo = saldoInicial;
         this._cliente = cliente;
         this._agencia = agencia;
-       
+        
     }
 
     set cliente(novoValor) {
