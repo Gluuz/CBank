@@ -1,0 +1,12 @@
+{
+    "name": "cbank",
+    "version": "1.0.0",
+    "description": "Projeto do CBank para teste",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "type": "module"
+  }

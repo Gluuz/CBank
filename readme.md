@@ -1,0 +1,1 @@
+a bank code that has account types (salary account, checking account, savings account, business account), performs transactions such as deposits, transfers between accounts, withdrawals.
